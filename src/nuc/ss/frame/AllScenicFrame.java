@@ -31,7 +31,7 @@ public class AllScenicFrame extends JFrame {
         this.setLocation(300, 200);
         JPanel J1 = new JPanel();
         J1.setLayout(new GridLayout(1, 1));
-        String temp = null;
+        String temp;
         if (u.getSex() == '男') {
             temp = "先生";
         } else {
